@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Atack Birds</string>
+    <string name="loading_scene_loading">Loading...</string>
+    <string name="menu_play">play</string>
+    <string name="menu_exit">exit</string>
+    <string name="menu_score">best score</string>
+    <string name="game_tutor">touch on the screen to shoot the bullets!</string>
+    <string name="game_pause_play">play</string>
+    <string name="game_pause_restart">restart</string>
+    <string name="game_pause_quit">quit</string>
+    <string name="game_score">score</string>
+    <string name="game_level">level</string>
+    <string name="game_pause_game_over">GAME OVER!</string>
+    <string name="game_pause_stage_complete">STAGE COMPLETE!</string>
+    <string name="confirm_restart_title">Do you want really restart?</string>
+    <string name="confirm_exit_title">Do you want really quit?</string>
+    <string name="confirm_exit_msg">You\'ll lose all score!</string>
+    <string name="confirm_exit_OK">Yes</string>
+    <string name="confirm_exit_Cancel">No</string>
+
+</resources>

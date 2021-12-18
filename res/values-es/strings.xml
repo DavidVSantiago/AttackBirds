@@ -1,0 +1,29 @@
+// OBS: Marcão! uma coisa importante com relação à coordenada Y: eu considerei o sistema de coordenada convencional. Y pra cima é positivo e Y pra baixo é negativo.
+
+public Point A; // limite inferior da reta
+public Point B; // limite superior da reta
+public Point P; // projeção do ponto de interesse "C" na reta.
+public Point C; // ponto de interesse
+public float f; // menor distância a ser encontrada
+
+/* verifica se o ponto P está antes de A */
+if((P.x < A.x) && (P.y < A.y)){
+	// Mesma coisa que fizemos no próximo if. porem aqui, ao invés de B, teremos A
+}
+/* verifica se o ponto P está depois de B */
+else if((P.x > B.x) && (P.y > B.y)){
+	
+	// Aqui iremos utilizar o "B" como referência para encontrar o "f"(letra na imagem)
+	
+	float e = Math.sqrt(Math.pow(P.x - B.x,2) + Math.pow(P.y - B.y,2)); // formula para encontrar a distância "e"(letra na imagem)
+	float d = Math.sqrt(Math.pow(P.x - C.x,2) + Math.pow(P.y - C.y,2));// formula para encontrar a distância "e"(letra na imagem)
+	
+	// Umas vez que temos os valores "e" e "d"(letras na imagem) podemos encontrar a tão desejada distância "f"
+	f =  Math.sqrt(Math.pow(e,2) + Math.pow(d,2)); // formula para encontrar a distância
+	
+}
+/* neste caso o ponto está entre A e B */
+else{
+	// Aqui você utiliza a fórmula da distância pependicular para encontrar o "d"(letra na imagem) que , neste caso , vai ser o seu valor
+	// não lembro agora como é a formula, mas você tem!
+}
