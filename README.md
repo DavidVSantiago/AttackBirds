@@ -4,10 +4,11 @@ Jogo desenvolvido em Java + biblioteca OpenGL ES, para a plataforma Android.<br>
 [Clique aqui](https://github.com/DavidVSantiago/AttackBirds/blob/main/bin/BirdAttack.apk) para baixar o arquivo .apk do jogo.
 
 ## Ilustrações do jogo em execução
-![img1](pics/01.jpg)
-![img2](pics/02.jpg)
-![img3](pics/03.jpg)
-
+[![img1](pics/01.jpg)](https://www.youtube.com/watch?v=wNWo8ekW9eM)
+<span>
+<img src="pics/02.jpg" width=40%>
+<img src="pics/03.jpg" width=40%>
+</span>
 ## Dependêcias
 
 * ```Android Studio```. Você precisará ter o ambiente de desenvolvimento Android com suporte mínimo para a SDK versão 9.
